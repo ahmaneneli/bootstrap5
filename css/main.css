@@ -12047,5 +12047,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.offcanvas {
+  pointer-events: auto !important;
+}
+
+.offcanvas .dropdown-menu {
+  position: relative !important;
+  z-index: 1055;
+}
 
 /*# sourceMappingURL=main.css.map */
