@@ -3,9 +3,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Net Ninja Pro - the Book</title>
+  <title>Breathe. Glow. Riven</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  <link href="/css/main.min.css" rel="stylesheet" >
+  <link href="/css/main.min.css" rel="stylesheet">
   <style>
     section{
       padding: 60px 0;
@@ -15,14 +15,12 @@
 <body>
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+  <nav class="navbar navbar-expand-md navbar-dark position-absolute w-100 pt-3 pb-3" style="z-index: 10;">
     <div class="container-xxl">
       <!-- navbar brand / title -->
-      <a class="navbar-brand" href="#intro">
-        <span class="text-secondary fw-bold">
-          <i class="bi bi-book-half"></i>
-          Net Ninja Pro - the Book
-        </span>
+      <a class="navbar-brand text-white fw-bold" href="#intro">
+          <i class="bi bi-droplet-half"></i>
+          Breathe. Glow. Riven
       </a>
       <!-- toggle button for mobile nav -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,19 +31,19 @@
       <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#topics">About The Book</a>
+            <a class="nav-link text-white" href="#topics">Our Philosophy</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#reviews">Reviews</a>
+            <a class="nav-link text-white" href="#reviews">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Get in Touch</a>
+            <a class="nav-link text-white" href="#contact">Contact Us</a>
           </li>
           <li class="nav-item d-md-none">
-            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link text-white" href="#pricing">Shop</a>
           </li>
           <li class="nav-item ms-2 d-none d-md-inline">
-            <a class="btn btn-secondary" href="#pricing">buy now</a>
+            <a class="btn btn-outline-light" href="#pricing">Buy now</a>
           </li>
           
         </ul>
@@ -54,66 +52,59 @@
   </nav>
 
   <!-- main image & intro text -->
-  <section id="intro">
-    <div class="container-lg">
+  <section id="intro" style="background-image: url('/assets/rainforest-bg.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; min-height:100vh; display: flex; align-items: center;">
+    <div class="container-lg text-white">
       <div class="row g-4 justify-content-center align-items-center">
         <div class="col-md-5 text-center text-md-start">
-          <h1>
-            <div class="display-2">Black-Belt</div>
-            <div class="display-5 text-muted">Your Coding Skills</div>
-          </h1>
-          <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dignissimos?</p>
-          <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
-          <!--open sidebar / offcanvas-->
-          <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas"
-          role="button" aria-controls="sidebar">
-          Explore my other books
-        </a>
+          <h1 class="display-2 fw-bold">Riven Bloom</h1>
+            <p class="display-5">Gentle by nature, radiant by Riven.</p>
+          <p class="lead my-4">Discover light, breathable skincare that restores balance and glow - inspired by nature.</p>
+          <a href="#pricing" class="btn btn-outline-light btn-lg me-3">Explore Products</a>
+          <!-- open sidebar / offcanvas -->
+          <a href="#sidebar" class="bnt bnt-outline-light btn-lg" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+            Discover our collection
+          </a>
         </div>
         <div class="col-md-5 text-center d-none d-md-block">
-            <!--tooltip-->
-            <span class="tt" data-bs-placement="bottom" title="Net Ninja Book Cover">
-                <img src="/assets/ebook-cover.png" class="img-fluid" alt="ebook cover">
-            </span>
+          <!-- tooltip -->
+          <span class="tt" data-bs-placement="bottom" title="Riven skincare collection">
+            <img src="/assets/riven-products.png" class="img-fluid rounded" alt="Riven products">
+          </span>
         </div>
       </div>
     </div>
   </section>
 
   <!-- pricing plans -->
-  <section id="pricing" class="bg-light mt-5">
+  <section id="pricing" class="bg-light mt-0">
     <div class="container-lg">
       <div class="text-center">
-        <h2>Pricing Plans</h2>
-        <p class="lead text-muted">Choose a pricing plan to suit you.</p>
+        <h2>Shop Our Bestsellers</h2>
+        <p class="lead text-muted">Light care, pure glow - choose what your skin needs.</p>
       </div>
 
       <div class="row my-5 g-0 align-items-center justify-content-center">
         <div class="col-8 col-lg-4 col-xl-3">
           <div class="card border-0">
             <div class="card-body text-center py-4">
-              <h4 class="card-title">Starter Edition</h4>
-              <p class="lead card-subtitle">eBook download only</p>
-              <p class="display-5 my-4 text-primary fw-bold">$12.99</p>
-              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
-              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
-                Buy Now
-              </a>
+              <h4 class="card-title">Riven Pure Cleanser</h4>
+              <p class="lead card-subtitle">Gentle foaming daily wash</p>
+              <p class="display-5 my-4 text-primary fw-bold">$15.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">A soft, botanical cleanser that refreshes and purifies without stripping natural moisture.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">Add to Cart</a>
             </div>
           </div>
         </div>
 
         <div class="col-9 col-lg-4">
           <div class="card border-primary border-2">
-            <div class="card-header text-center text-primary">Most Popular</div>
+            <div class="card-header text-center text-primary">Most Loved</div>
             <div class="card-body text-center py-5">
-              <h4 class="card-title">Complete Edition</h4>
-              <p class="lead card-subtitle">eBook download & all updates</p>
-              <p class="display-4 my-4 text-primary fw-bold">$18.99</p>
-              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
-              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
-                Buy Now
-              </a>
+              <h4 class="card-title">Riven Dew Serum</h4>
+              <p class="lead card-subtitle">Hydrating glow elixir</p>
+              <p class="display-4 my-4 text-primary fw-bold">$19.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lightweight hydration with natural botanicals - for soft, dewy skin that breathes.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3"> Add to Cart</a>
             </div>
           </div>
         </div>
@@ -121,13 +112,11 @@
         <div class="col-8 col-lg-4 col-xl-3">
           <div class="card border-0">
             <div class="card-body text-center py-4">
-              <h4 class="card-title">Ultimate Edition</h4>
-              <p class="lead card-subtitle">download, updates & extras</p>
-              <p class="display-5 my-4 text-primary fw-bold">$24.99</p>
-              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, vitae magni! Repellat commodi a fuga corporis saepe dolorum.</p>
-              <a href="#" class="btn btn-outline-primary btn-lg mt-3">
-                Buy Now
-              </a>
+              <h4 class="card-title">Riven Calm Cream</h4>
+              <p class="lead card-subtitle">Soothing daily moisturizer</p>
+              <p class="display-5 my-4 text-primary fw-bold">$22.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">A calming blend of lavender and green tea that hydrates, protects, and balances sensitive skin.</p>
+              <a href="#" class="btn btn-outline-primary btn-lg mt-3">Add to Cart</a>
             </div>
           </div>
         </div>
@@ -140,12 +129,12 @@
   <section id="topics">
     <div class="container-md">
       <div class="text-center">
-        <h2>Inside the Book...</h2>
-        <p class="lead text-muted">A quick glance at the topics you'll learn</p>
+        <h2>Our Philosophy</h2>
+        <p class="lead text-muted">A closer look at what makes Riven unique.</p>
       </div>
       <div class="row my-5 g-5 justify-content-around align-items-center">
         <div class="col-6 col-lg-4">
-          <img src="/assets/kindle.png" class="img-fluid" alt="ebook">
+          <img src="/assets/riven-nature.png" class="img-fluid rounded" alt="natural ingredients">
         </div>
         <div class="col-lg-6">
           
@@ -154,66 +143,59 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-1">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
-                  Chapter 1 - Your First Web Page
+                  Naturally Derived Ingredients
                 </button>
               </h2>
               <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
                 <div class="accordion-body">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>We craft each formula with carefully selected botanicals and plant-based actives that nourish and protect your skin.</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-2">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chapter-2">
-                  Chapter 2 - Mastering CSS
+                  Lightweight formulas
                 </button>
               </h2>
               <div id="chapter-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#chapters">
                 <div class="accordion-body">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>Our skincare feels as light as air - designed to hydrate without heaviness, leaving your skin free to breathe and glow.</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-3">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chapter-1">
-                  Chapter 3 - The Power of JavaScript
+                  Sustainable Beauty
                 </button>
               </h2>
               <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#chapters">
                 <div class="accordion-body">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                </div>
+                  <p>From packaging to production, Riven is committed to sustainability and minimal environmental impact.</p>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-4">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
-                  Chapter 4 - Storing Data (Firebase Databases)
+                  Mindful Rituals
                 </button>
               </h2>
               <div id="chapter-4" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#chapters">
                 <div class="accordion-body">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
+                  <p>Each Riven ritual is a moment to reconnect - a quiet pause to breathe, soften, and care for your skin with intention.</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="heading-5">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chapter-5">
-                  Chapter 5 - User Authentication
+                  Effortless Glow
                 </button>
               </h2>
               <div id="chapter-5" class="accordion-collapse collapse" aria-labelledby="heading-5" data-bs-parent="#chapters">
                 <div class="accordion-body">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                </div>
+                  <p>True radiance begins within - our lightweight, naturally derived formulas bring out your skin's own calm, confident glow.</p>
               </div>
             </div>
           </div>
@@ -227,8 +209,8 @@
   <section id="reviews" class="bg-altlight">
     <div class="container-lg">
       <div class="text-center">
-        <h2><i class="bi bi-stars"></i>Book Reviews</h2>
-        <p class="lead">What my students have said about the book...</p>
+        <h2><i class="bi bi-stars text-altdark"></i>What Our Customers Say</h2>
+        <p class="lead">Real stories from glowing skin lovers</p>
       </div>
 
       <div class="row justify-content-center my-5">
@@ -236,63 +218,63 @@
           <div class="list-group">
             <div class="list-group-item py-3">
               <div class="pb-2">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
               </div>
-              <h5 class="mb-1">A must-buy for every aspiring web dev</h5>
-              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
-              <small>Review by Mario</small>
+              <h5 class="mb-1">My skin has never felt this fresh!</h5>
+              <p class="mb-1">Riven Dew Serum is so light and refreshing - my skin drinks it up instantly. Love the scent and texture!</p>
+              <small>Review by Anna</small>
             </div>
             <div class="list-group-item py-3">
               <div class="pb-2">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
               </div>
-              <h5 class="mb-1">A must-buy for every aspiring web dev</h5>
-              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
-              <small>Review by Mario</small>
+              <h5 class="mb-1">Soft and calming</h5>
+              <p class="mb-1">The Calm Cream really helped my sensitive skin - no irritation, just hydration and comfort.</p>
+              <small>Review by Lisa</small>
             </div>
             <div class="list-group-item py-3">
               <div class="pb-2">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-half text-altdark"></i>
               </div>
-              <h5 class="mb-1">A must-buy for every aspiring web dev</h5>
-              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
-              <small>Review by Mario</small>
+              <h5 class="mb-1">Finally, a cream that truly helps!</h5>
+              <p class="mb-1">Riven Calm Cream has transformed my nightly routine - my redness had reduced and my skin feels nourished.</p>
+              <small>Review by Sofia</small>
             </div>
             <div class="list-group-item py-3">
               <div class="pb-2">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
               </div>
-              <h5 class="mb-1">A must-buy for every aspiring web dev</h5>
-              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
-              <small>Review by Mario</small>
+              <h5 class="mb-1">Hydration without heaviness</h5>
+              <p class="mb-1">The Dew Serum feels weightless yet my skin is plump and glowing. Perfect for layering under makeup!!</p>
+              <small>Review by Kaisa</small>
             </div>
             <div class="list-group-item py-3">
               <div class="pb-2">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-fill text-altdark"></i>
+                <i class="bi bi-star-half text-altdark"></i>
               </div>
-              <h5 class="mb-1">A must-buy for every aspiring web dev</h5>
-              <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error veniam sit expedita est illo maiores neque quos nesciunt, reprehenderit autem odio commodi labore praesentium voluptate repellat in id quisquam.</p>
-              <small>Review by Mario</small>
+              <h5 class="mb-1">A fresh start for sensitive skin</h5>
+              <p class="mb-1">I've tried many products, but Riven's formulas are gentle, soothing and effective. My skin finally feels balanced.</p>
+              <small>Review by Emily</small>
             </div>
           </div>
         </div>
@@ -306,8 +288,8 @@
     <div class="container-lg">
       
       <div class="text-center">
-        <h2>Get in Touch</h2>
-        <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+        <h2>Contact Us</h2>
+        <p class="lead">Have a question about our products? We'd love to hear from you.</p>
       </div>
       <div class="row justify-content-center my-5">
         <div class="col-lg-6">
@@ -318,44 +300,41 @@
               <span class="input-group-text">
                 <i class="bi bi-envelope-fill text-secondary"></i>
               </span>
-              <input type="text" id="email" class="form-control" placeholder="e.g. mario@example.com" />
-            <!--tooltip-->
+              <input type="text" id="email" class="form-control" placeholder="e.g. laura@example.com" />
+              <!-- tooltip -->
               <span class="input-group-text">
                 <span class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to.">
-                <i class="bi bi-question-circle text-muted"></i>
+                  <i class="bi bi-question-circle text-muted"></i>
                 </span>
               </span>
             </div>
-
-
             <label for="name" class="form-label">Name:</label>
             <div class="mb-4 input-group">
               <span class="input-group-text">
                 <i class="bi bi-person-fill text-secondary"></i>
               </span>
-              <input type="text" id="name" class="form-control" placeholder="e.g. Mario" />
+              <input type="text" id="name" class="form-control" placeholder="e.g. Laura" />
               <!-- tooltip -->
-                <span class="input-group-text">
+              <span class="input-group-text">
                 <span class="tt" data-bs-placement="bottom" title="Pretty self explanatory really...">
-                <i class="bi bi-question-circle text-muted"></i>
+                  <i class="bi bi-question-circle text-muted"></i>
                 </span>
               </span>
             </div>
-
-            <label for="subject" class="form-label">What is your question about?</label>
+            <label for="subject" class="form-label">Topic:</label>
             <div class="mb-4 input-group">
               <span class="input-group-text">
                 <i class="bi bi-chat-right-dots-fill text-secondary"></i>
               </span>
               <select class="form-select" id="subject">
-                <option value="pricing" selected>Pricing query</option>
-                <option value="content">Content query</option>
-                <option value="other">Other query</option>
+                <option value="pricing" selected>Order query</option>
+                <option value="content">Product information</option>
+                <option value="other">Other</option>
               </select>
             </div>
             <div class="mb-4 mt-5 form-floating">
               <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
-              <label for="query">Your query...</label>
+              <label for="query">Your message...</label>
             </div>
             <div class="mb-4 text-center">
               <button type="submit" class="btn btn-secondary">Submit</button>
@@ -367,84 +346,70 @@
   </section>
 
   <!-- get updates / modal trigger -->
-   <section class="bg-light">
+  <section class="bg-light">
     <div class="container">
       <div class="text-center">
-        <h2>Stay in The Loop</h2>
-        <p class="lead">Get the latest updatest as they happen...</p>
+        <h2>Stay in the Glow</h2>
+        <p class="lead">Be the first to know about new launches and skincare tips.</p>
       </div>
       <div class="row justify-content-center">
         <div class="col-md-8 text-center">
-          <p class="text-muted my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos consectetur necessitatibus ullam labore temporibus nihil tenetur eum consequatur maiores, molestias hic magni expedita impedit ab! Quo officiis molestiae voluptate nihil.</p>
-          <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+          <p class="text-muted my-4">Riven brings you gentle, naturally inspired skincare that lets your skin breathe and glow. Lightweight formulas, carefully selected botanicals, and soothing textures combine to hydrate, protect, and refresh - every day. Simple, sustainable and radiant by nature.</p>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
             Register for Updates
           </button>
         </div>
       </div>
     </div>
-   </section>
+  </section>
 
-
-
-
-  <!--modal itself-->
-<div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal title"
-aria-hidden="true">
-<div class="modal-dialog">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title" id="modal-title">Get the Latest Updates</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="modal"
-      aria-label="Close"></button>
-    </div>
-    <div class="modal-body">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam repudiandae rerum atque perspiciatis soluta quas assumenda dolore, reiciendis excepturi asperiores maiores vel, beatae aperiam et earum officia porro suscipit tenetur.</p>
-      <label for="modal-email" class="form-label">Your email address</label>
-      <input type="email" class="form-control" id="modal-email" placeholder="eg.mario@example.com">
-    </div>
-    <div class="modal footer">
-      <button class="btn btn-primary">Submit</button>
+  <!-- modal itself -->
+  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Join the Riven Community</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Receive gentle skincare guidance and early access to exclusive offers.</p>
+          <label for="modal-email" class="form-label">Your email address:</label>
+          <input type="text" class="form-control" id="modal-email" placeholder="e.g. laura@example.com">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-</div>
 
-
-<!-- offcanvas -->
- <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar"
- aria-labelledby="sidebar-label">
-<div class="offcanvas-header">
-  <h5 class="offcanvas-title" id="sidebar-label">My Other Books</h5>
-  <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-  aria-label="Close"></button>
-</div>
-<div class="offcanvas-body">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat minima in error ex qui et, commodi saepe laudantium eveniet, odit incidunt fugit illo dignissimos consectetur nihil sed tempora fuga possimus.</p>
-  <!--dropdown-->
-  <div class="dropdown mt-3">
-    <button class="btn btn-secondary dropdown-toggle" type="button"
-    id="book-dropdown" data-bs-toggle="dropdown">
-      Choose a book title
-  </button>
-  <div class="dropdown-menu" aria-labelledby="book-dropdown">
-    <li><a href="#" class="dropwdown-item">Become a React Superhero</a></li>
-    <li><a class="dropdown-item" href="#">Conquering Vue.js</a></li>
-    <li><a class="dropdown-item" href="#">Levelling up Your Next.js</a></li>
-    </ul
+  <!-- side panel / offcanvas -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebar-label">Our Collections</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>Each Riven line is crafted for your skin's changing needs - light, hydrating and soothing.</p>
+      <!-- dropdown -->
+      <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown">
+          Choose a collection
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+          <li><a class="dropdown-item" href="#">Riven Bloom</a></li>
+          <li><a class="dropdown-item" href="#">Riven Dew</a></li>
+          <li><a class="dropdown-item" href="#">Riven Calm</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
-  </div>
-</div>
-</div>
-
-
 
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   <script>
     const tooltips = document.querySelectorAll('.tt')
-    tooltips.forEach (t => {
-        new bootstrap.Tooltip(t)
-    })
+    tooltips.forEach(t => new bootstrap.Tooltip(t))
   </script>
 </body>
 </html>

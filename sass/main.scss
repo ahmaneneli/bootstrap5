@@ -1,1 +1,35 @@
-@import '../node_modules/
+// 1. Custom variable values
+$primary: #7440a1; // tekst
+$secondary: #7440a1; // nupud
+$light: #f7ecfa;
+$dark: #313131;
+
+// 2. Import Bootstrap functions & variables FIRST
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+// 3. Custom theme colors
+$custom-theme-colors: (
+  "altlight": #e5daf1,
+  "altdark": #1b4b1d
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// 5. Button overrides
+$btn-primary-bg: $primary;
+$btn-primary-border: $primary;
+$btn-primary-color: #fff;
+
+$btn-secondary-bg: $secondary; 
+$btn-secondary-border: $secondary;
+$btn-secondary-color: #fff;
+
+$btn-primary-hover-bg: darken($primary, 10%);
+$btn-primary-hover-border: darken($primary, 12%);
+
+$btn-secondary-hover-bg: darken($secondary, 10%);
+$btn-secondary-hover-border: darken($secondary, 12%);
+
+// 6. Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
